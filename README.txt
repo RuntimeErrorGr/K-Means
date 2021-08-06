@@ -23,7 +23,9 @@ returneaza matricea de centroizi. Daca nu, se trece la o noua iteratie.
 
 
 2) "compute_cost_pc" 
-	Calculeaza costul minim al clustering-ului, adica distanta de la fiecare punct catre cel mai apropiat centroid, astfel:
-	- Se stabileste costul clustering-ului pentru fiecare punct folosind distanta euclidiana
-	- Costul trebuie sa fie minim, deci este luat drept cost pentru un punct distanta euclidiana pana la cel mai apropiat centroid
-	- Costul total minim se obtine prin insumarea costurilor minime pentru fiecare punct
+	Calculeaza costul minim al clustering-ului, adica distanta de la fiecare punct 
+catre cel mai apropiat centroid, astfel:
+	- Se stabileste costul clustering-ului pentru fiecare punct folosind distanta euclidiana.
+	- Costul trebuie sa fie minim, deci este luat drept cost pentru un punct distanta euclidiana 
+pana la cel mai apropiat centroid.
+	- Costul total minim se obtine prin insumarea costurilor minime pentru fiecare punct.
